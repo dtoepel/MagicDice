@@ -16,6 +16,5 @@ public class DiceService {
         this.diceRepo = diceRepo;
     }
 
-    public List<Dice> getAllElections() { return List.of(new Dice("testDice")); }
-    //public List<Dice> getAllElections() { return diceRepo.findAll(); }
+    public List<Dice> getAllDice() { return diceRepo.findAll(); }
 }

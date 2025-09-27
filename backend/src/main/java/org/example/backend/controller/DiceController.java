@@ -18,6 +18,6 @@ public class DiceController {
     }
 
     @GetMapping
-    public List<Dice> getAllElections() { return diceService.getAllElections(); }
+    public List<Dice> getAllDice() { return diceService.getAllDice(); }
 
 }
