@@ -4,7 +4,6 @@ import org.example.backend.model.Dice;
 import org.example.backend.repository.DiceRepo;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Service
